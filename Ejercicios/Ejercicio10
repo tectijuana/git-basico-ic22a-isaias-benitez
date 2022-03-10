@@ -1,0 +1,8 @@
+#Escribir un programa que acepte 25 enteros positivos como datos y describir cada uno como impar o par
+for x in range(1, 26):
+    print("Numero #",x)
+    numero = int(input("Dame el numero para verificar si es par o no: \n"))
+    if (numero%2)==0:
+        print ("---El numero es par---")
+    else:
+        print ("---El numero es impar---")
