@@ -3,7 +3,7 @@ x = 1
 band = 1
 while band !=0:
     suma = 2**x
-    if sum > 1000:
+    if suma > 1000:
         print ("La potencia excede un resultado de 1000")
         band = 0
     else:
