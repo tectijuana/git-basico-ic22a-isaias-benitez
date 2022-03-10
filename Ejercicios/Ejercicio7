@@ -1,0 +1,6 @@
+#Determinar si un numero dado es divisible entre 14
+numero = int(input("Dame el numero para verificar si es divisible entre 14: \n"))
+if (numero%14)==0:
+    print ("El numero si es divisible entre 14")
+else:
+    print ("El numero no es divisible entre 14")
