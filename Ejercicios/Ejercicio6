@@ -1,0 +1,7 @@
+#Convertir pulgadas a yardas, y pies a pulgadas
+pulgadas = int(input("Dame las pulgas para convertir a yardas: \n"))
+yardas = pulgadas/26
+print("Las",pulgadas,"pulgadas son",yardas,"yardas")
+pies = int(input("Dame los pies para convertir a pulgadas: \n"))
+pulgas = pies * 12
+print("Los",pies,"pies son",pulgas,"pulgadas")
