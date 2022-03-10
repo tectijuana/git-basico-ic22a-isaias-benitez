@@ -1,0 +1,6 @@
+#Determinar si un numero entero dado es multiplo de 6
+numero = int(input("Dame el numero para verificar si es multiplo de 6: \n"))
+if (numero%6)==0:
+    print ("El numero si es multiplo de 6")
+else:
+    print ("El numero no es multiplo de 6")
