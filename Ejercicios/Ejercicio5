@@ -2,10 +2,10 @@
 x = 1
 band = 1
 while band !=0:
-    sum = 2**x
+    suma = 2**x
     if sum > 1000:
         print ("La potencia excede un resultado de 1000")
         band = 0
     else:
-        print ("Potencia de 2 ^",x, "es: ",sum,)
+        print ("Potencia de 2 ^",x, "es: ",suma,)
     x = x + 1
