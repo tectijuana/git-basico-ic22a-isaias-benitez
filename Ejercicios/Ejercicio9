@@ -1,0 +1,6 @@
+#Introducir y determinar si es par o impar
+numero = int(input("Dame el numero para verificar si es par o no: \n"))
+if (numero%2)==0:
+    print ("El numero es par")
+else:
+    print ("El numero es impar")
